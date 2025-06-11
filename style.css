@@ -215,6 +215,73 @@ body {
       object-fit: cover; /* Ajusta a imagem para preencher o quadrado */
     }
  
+.botao {
+      background: #3677b3;
+      color: rgb(255, 255, 255);
+      padding: 20px;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    }
+
+    @keyframes animarClique {
+      0% { transform: scale(1); }
+      50% { transform: scale(0.8); }
+      100% { transform: scale(1); }
+    }
+
+    .botao:active {
+      animation: animarClique 0.3s ease;
+    }
+  
+main{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.barra{
+    width: 100%;
+    height: 120px;
+    background-color: #eef7ff;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.pets{
+    width: 70%;
+    border: none;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2{
+    text-align: center;
+} 
+img{
+    width: 200px;
+    height: auto;
+    display:inline-block;
+    margin-right: 10px;
+
+}
+
+/* CSS */
+.img-lado {
+  display: inline-block;
+  width: 200px;
+  height: auto;
+  margin-right: 10px;
+}
+
 
 /* Footer */
 
@@ -366,3 +433,4 @@ body {
 
 }
  
+
