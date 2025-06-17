@@ -216,8 +216,8 @@ body {
     }
  
 .botao {
-      background: #3677b3;
-      color: rgb(255, 255, 255);
+      background: #FF9611;
+      color: rgb(0, 0, 0);
       padding: 20px;
       border: none;
       cursor: pointer;
@@ -247,25 +247,15 @@ main{
     height: 120px;
     background-color: #eef7ff;
     display: flex;
-    justify-items: center;
     align-items: center;
-    flex-direction: column;
-    
-}
-
-.pets{
-    width: 70%;
-    border: none;
-    height: 500px;
-    display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    
 }
 
 h2{
     text-align: center;
-} 
+}
+ 
 img{
     width: 200px;
     height: auto;
@@ -273,6 +263,7 @@ img{
     margin-right: 10px;
 
 }
+
 
 /* CSS */
 .img-lado {
