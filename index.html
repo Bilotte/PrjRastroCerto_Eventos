@@ -11,10 +11,10 @@
 </head>
 
 <body>
-    <!-- Cabeçalho -->
+       <!-- Cabeçalho -->
     <header class="cabecalho">
         <a href="#" class="logo">
-            <img src="./img/logo.png" alt="RastroCerto">
+            <img src="./img/logo.png" alt="RastroCerto" />
         </a>
 
         <nav class="nav-menu">
@@ -30,51 +30,135 @@
     </header>
 
     <main>
-        <section class="barra"> 
+        <!-- Filtro Barra -->
+        <section class="barra">
             <div>
                 <button class="botao">Escolha um Estado</button>
             </div>
-
             <div>
                 <button class="botao">Escolha uma Cidade</button>
             </div>
-
             <div>
                 <button class="botao">Escolha uma Data</button>
             </div>
-
             <div>
                 <button class="botao">Procure por um Evento</button>
             </div>
-            
             <div>
-                <button class="botao">Buscar</button>             
+                <button class="botao">Buscar</button>
             </div>
-            </main>
-            
-    <nav class="menu"></nav>
+        </section>
+    </main>
+
     <!-- Banner com slider -->
-     <section class="banner">
+    <section class="banner">
         <div class="slider">
-            <div class="slide"><img src="./img/Media (1).jpg" alt="Evento 1"/></div>
-            <div class="slide"><img src="./img/Media (1).jpg" alt="Evento 2"/></div>
+            <div class="slide"><img src="./img/eventos (2).png" alt="Evento 1" /></div>
+            <div class="slide"><img src="./img/eventos (4).png" alt="Evento 2" /></div>
+            <div class="slide"><img src="./img/eventos (2).png" alt="Evento 1" /></div>
         </div>
         <a href="#Ongs-Protetores" class="banner-overlay">Ver mais eventos</a>
-     </section>
+    </section>
 
-        
+    <!-- Testimonial Slider -->
+   <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+
+            <!-- Adiciona aqui a class="opinion" no container -->
+            <div class="opinion">
+            
+                <div class="testimonial">
+                    <div class="pic">
+                        <img src="./img/image 8.png" alt="Cookie" />
+                    </div>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                    </p>
+                    <h3 class="title">Cookie</h3>
+                    <small class="post">- Architect</small>
+                </div>
+
+                <div class="testimonial">
+                    <div class="pic">
+                        <img src="./img/image 9.png" alt="Canela" />
+                    </div>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                    </p>
+                    <h3 class="title">Canela</h3>
+                    <small class="post">- Engineer</small>
+                </div>
+
+                <div class="testimonial">
+                    <div class="pic">
+                        <img src="./img/image 10.png" alt="Chocolate" />
+                    </div>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                    </p>
+                    <h3 class="title">Chocolate</h3>
+                    <small class="post">- Graphic Designer</small>
+                </div>
+
+                <div class="testimonial">
+                    <div class="pic">
+                        <img src="./img/image 11.png" alt="Kellie" />
+                    </div>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                    </p>
+                    <h3 class="title">Lili</h3>
+                    <small class="post">- Graphic Designer</small>
+                </div>
+
+                <div class="testimonial">
+                    <div class="pic">
+                        <img src="./img/image 12.png" alt="Kellie" />
+                    </div>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                    </p>
+                    <h3 class="title">Neno</h3>
+                    <small class="post">- Graphic Designer</small>
+                </div>
+
+            </div> <!-- fecha .opinion -->
+
+        </div>
+    </div>
+</div>
+
+    <!-- Scripts para o slider -->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("#testimonial-slider").owlCarousel({
+                items: 2,
+                itemsDesktop: [1000, 2],
+                itemsDesktopSmall: [990, 2],
+                itemsTablet: [768, 1],
+                pagination: true,
+                navigation: false,
+                slideSpeed: 1000,
+                autoPlay: true
+            });
+        });
+    </script>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="mapa-site">
-        </div>
+        <div class="mapa-site"></div>
         <div class="direitos">
             <p>© 2025 RastroCerto. Todos os direitos reservados.</p>
         </div>
         <div id="shimeji-container">
-            <img src="./image/GATO.gif" alt="Shimeji" id="shimeji">
+            <img src="./image/GATO.gif" alt="Shimeji" id="shimeji" />
         </div>
     </footer>
 </body>
+
 
 </html>
