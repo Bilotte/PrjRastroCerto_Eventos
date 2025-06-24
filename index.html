@@ -11,7 +11,7 @@
 </head>
 
 <body>
-       <!-- Cabeçalho -->
+    <!-- Cabeçalho -->
     <header class="cabecalho">
         <a href="#" class="logo">
             <img src="./img/logo.png" alt="RastroCerto" />
@@ -61,80 +61,96 @@
     </section>
 
     <!-- Testimonial Slider -->
-   <div class="container">
-    <div class="row">
-        <div class="col-md-12">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
 
-            <!-- Adiciona aqui a class="opinion" no container -->
-            <div class="opinion">
-            
-                <div class="testimonial">
-                    <div class="pic">
-                        <img src="./img/image 8.png" alt="Cookie" />
+                <!-- Adiciona aqui a class="opinion" no container -->
+                <div class="opinion">
+
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="./img/image 8.png" alt="Cookie" />
+                        </div>
+                        <p class="description">
+                            🐶 Adoção de Cookie
+                            "Adotar o Cookie foi a melhor decisão da minha vida. Ele chegou tímido, mas agora corre pela
+                            casa todo feliz e é só amor e gratidão. Obrigado por nos guiarem com tanto carinho durante a
+                            adoção!"
+                        </p>
+
+                        <h3 class="title">Cookie</h3>
+                        <small class="post">- Arthur Gomes</small>
                     </div>
-                    <p class="description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-                    </p>
-                    <h3 class="title">Cookie</h3>
-                    <small class="post">- Architect</small>
-                </div>
 
-                <div class="testimonial">
-                    <div class="pic">
-                        <img src="./img/image 9.png" alt="Canela" />
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="./img/image 9.png" alt="Canela" />
+                        </div>
+                        <p class="description">
+                            🐰 Adoção de Canela
+                            "Nunca imaginei que um coelhinho pudesse ser tão carinhoso! O Canela é curioso, limpo e ama
+                            quando damos frutas. A adoção foi super organizada e me explicaram tudo com paciência.
+                            Recomendo demais!"
+                        </p>
+                        <h3 class="title">Canela</h3>
+                        <small class="post">- Izadora Fernandes</small>
                     </div>
-                    <p class="description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-                    </p>
-                    <h3 class="title">Canela</h3>
-                    <small class="post">- Engineer</small>
-                </div>
 
-                <div class="testimonial">
-                    <div class="pic">
-                        <img src="./img/image 10.png" alt="Chocolate" />
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="./img/image 10.png" alt="Chocolate" />
+                        </div>
+                        <p class="description">
+                            🐰 Adoção de Chocolate
+                            "Nunca imaginei que um coelhinho pudesse ser tão amado pela minha filha! O Chocolate é
+                            curioso, limpo e ama
+                            quando damos frutas e legumes. A adoção está de parabéns e me explicaram com paciência.
+                            Super Recomendo!"
+                        </p>
+                        <h3 class="title">Chocolate</h3>
+                        <small class="post">- Gabriely Pereira</small>
                     </div>
-                    <p class="description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-                    </p>
-                    <h3 class="title">Chocolate</h3>
-                    <small class="post">- Graphic Designer</small>
-                </div>
 
-                <div class="testimonial">
-                    <div class="pic">
-                        <img src="./img/image 11.png" alt="Kellie" />
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="./img/image 11.png" alt="Lili" />
+                        </div>
+                        <p class="description">
+                            🐹 Adoção de lili
+                            "Pequenina no tamanho, gigante no encanto! A Lili é uma fofura, super ativa
+                            e esperta. Foi minha primeira adoção e o processo foi transparente e cheio de cuidado. Só
+                            tenho elogios!"
+                        </p>
+                        <h3 class="title">Lili</h3>
+                        <small class="post">- Thiago Santos</small>
                     </div>
-                    <p class="description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-                    </p>
-                    <h3 class="title">Lili</h3>
-                    <small class="post">- Graphic Designer</small>
-                </div>
 
-                <div class="testimonial">
-                    <div class="pic">
-                        <img src="./img/image 12.png" alt="Kellie" />
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="./img/image 12.png" alt="Neno" />
+                        </div>
+                        <p class="description">
+                            🐱 Adoção de Neno
+                            "O Neno já virou o dono do sofá e do meu coração. Super carinhoso, adora um colinho e já se
+                            adaptou super bem. A equipe foi incrível e me ajudou em cada passo. Gratidão!"
+                        </p>
+                        <h3 class="title">Neno</h3>
+                        <small class="post">- Helena Rodrigues</small>
                     </div>
-                    <p class="description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-                    </p>
-                    <h3 class="title">Neno</h3>
-                    <small class="post">- Graphic Designer</small>
-                </div>
 
-            </div> <!-- fecha .opinion -->
+                </div> <!-- fecha .opinion -->
 
+            </div>
         </div>
     </div>
-</div>
 
     <!-- Scripts para o slider -->
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
 
     <script>
-        $(document).ready(function(){
+        $(document).ready(function () {
             $("#testimonial-slider").owlCarousel({
                 items: 2,
                 itemsDesktop: [1000, 2],
